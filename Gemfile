@@ -30,7 +30,8 @@ group :assets do
 end
 
 group :test do 
-	gem 'capybara', '1.1.2'
+	gem 'capybara', '1.1.2' #Together with the natural-language syntax provided by Capybara, integration tests provide a powerful method to test our application’s functionality without having to manually
+	 #check each page with a browser.
 	gem 'factory_girl_rails', '4.1.0'
 	gem 'cucumber-rails', '1.2.1', :require => false
 	gem 'database_cleaner', '0.7.0'
