@@ -36,6 +36,7 @@ group :test do
 	#without having to manually check each page with a browser.
 	gem 'factory_girl_rails', '4.1.0'
 	gem 'cucumber-rails', '1.2.1', :require => false
+	# a popular system for behavior-driven development 
 	gem 'database_cleaner', '0.7.0'
 end
 
